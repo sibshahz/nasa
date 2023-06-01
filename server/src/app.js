@@ -8,8 +8,7 @@ const api = require('./routes/api');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:8000',
-  
+  origin: 'https://nasa-control.netlify.app',
 }));
 app.use(morgan('combined'));
 
