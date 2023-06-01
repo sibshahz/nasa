@@ -5,13 +5,17 @@ const astronautsSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  type: {
-    type: Number,
-    required: true,
+  status:{
+    type: Boolean,
+    required:true,
   },
   launchNumber: {
-    type: Date,
-    required: true,
+    type: Number,
+    required: false,
+  },
+  gender:{
+    type:String,
+    required:true,
   },
   scheduled: {
     type: Boolean,
