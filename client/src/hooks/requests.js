@@ -1,4 +1,4 @@
-const API_URL = 'http://nasa-control.up.railway.app/v1';
+const API_URL = 'https://nasa-control.up.railway.app/v1';
 
 // Load planets and return as JSON.
 async function httpGetPlanets() {
